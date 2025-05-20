@@ -40,7 +40,7 @@ Bernabe Bustos, Ph.D. (Krainc Lab, Department of Neurology, Northwestern Univers
 
 # Selection of rare predicted loss of function damaging variants
 
-cut -f1-9,11,12,29,47 chr1-X.OnlyPASS_DP10_GQ20_CR90.MultiSplit.SNPsInDels.RawID.bcftools.PD_CC_Nov2022.Plink_rareMAF01.annotated.hg38_multianno.txt awk '$6 == "exonic" || $6 == "exonic;splicing" || $6 == "splicing" {print}' | awk '$9 == "frameshift" || $9 == "stopgain" || $9 == "stoploss" {print $(NF-7)}' > AMPPD.MAF01.LOF.txt
+cut -f1-9,11,12,29,47 chr1-X.OnlyPASS_DP10_GQ20_CR90.MultiSplit.SNPsInDels.RawID.bcftools.PD_CC_Nov2022.Plink_rareMAF01.annotated.hg38_multianno.txt | awk '$6 == "exonic" || $6 == "exonic;splicing" || $6 == "splicing" {print}' | awk '$9 == "frameshift" || $9 == "stopgain" || $9 == "stoploss" {print $(NF-7)}' > AMPPD.MAF01.LOF.txt
 
 # Extraction of selected variants from VCF file
 

@@ -3,7 +3,7 @@ Bernabe Bustos, Ph.D. (Krainc Lab, Department of Neurology, Northwestern Univers
 
 Genetic analysis for the paper "Commander complex regulates lysosomal function and is implicated in Parkinson’s disease risk" published in the journal Science https://www.science.org/doi/10.1126/science.adq6650.
 
-### This pipeline starts with already QCed and processed AMP-PD and UK Biobank datasets as described in the methods section of our publication. This includes the creation of the phenotype file that includes the covariates: sex, age at onset for cases and recruitment for controls, and principal components 1 to 10.
+### This pipeline starts with already QCed and processed AMP-PD and UK Biobank datasets as described in the methods section of our publication. This includes the creation of the phenotype file that has the following covariates: sex, age at onset for cases and age of recruitment for controls, and principal components 1 to 10.
 
 ### Exected QCs from AMP-PD and UK Biobank
 

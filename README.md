@@ -1,7 +1,7 @@
 # Burden analysis of rare predicted loss of function variants in COMMD related genes for Parkinson's disease.
 Bernabe Bustos, Ph.D. (Krainc Lab, Department of Neurology, Northwestern University Feinberg School of Medicine)
 
-### This pipeline start with already QCed and processed AMP-PD and UK Biobank datasets as described in the methods section of our publication. This includes the creation of the phenotype file that includes the covariates: sex, age at onset for cases and recruitment for controls, and principal components 1 to 10.
+### This pipeline starts with already QCed and processed AMP-PD and UK Biobank datasets as described in the methods section of our publication. This includes the creation of the phenotype file that includes the covariates: sex, age at onset for cases and recruitment for controls, and principal components 1 to 10.
 
 ### Exected QCs from AMP-PD and UK Biobank
 

@@ -5,7 +5,7 @@ Genetic analysis for the paper "Commander complex regulates lysosomal function a
 
 ### This pipeline starts with already QCed and processed AMP-PD and UK Biobank datasets as described in the methods section of our publication. This includes the creation of the phenotype file that has the following covariates: sex, age at onset for cases and age of recruitment for controls, and principal components 1 to 10.
 
-### Exected QCs from AMP-PD and UK Biobank
+### Expected QCs from AMP-PD and UK Biobank
 
 #### For AMP-PD genomes:
 ##### 1. All variants must have genotype depth (DP) above 10, genotype quality (GQ) above 20.
@@ -164,7 +164,7 @@ HOPS_complex    11_KN196481v1_fix:89416-103571,11_KN196481v1_fix:89416-103571,11
 --burden cmcWald
 ```
 
-### Result
+### Results
 
 ```
 

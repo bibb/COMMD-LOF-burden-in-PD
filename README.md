@@ -1,5 +1,6 @@
 # Burden analysis of rare predicted loss of function variants in COMMD related genes for Parkinson's disease.
 Bernabe Bustos, Ph.D. (Krainc Lab, Department of Neurology, Northwestern University Feinberg School of Medicine)
+Genetic analysis for the paper "Commander complex regulates lysosomal function and is implicated in Parkinson’s disease risk" published in the journal Science https://www.science.org/doi/10.1126/science.adq6650.
 
 ### This pipeline starts with already QCed and processed AMP-PD and UK Biobank datasets as described in the methods section of our publication. This includes the creation of the phenotype file that includes the covariates: sex, age at onset for cases and recruitment for controls, and principal components 1 to 10.
 
